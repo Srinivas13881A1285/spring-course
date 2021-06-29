@@ -1,4 +1,6 @@
-package collections;
+package collections.sets;
+
+import comparator.Employee;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -49,5 +51,16 @@ public class SetExample {
         sorted.add(10);
         sorted.add(100);
         System.out.println(sorted);
+
+
+
+
     }
 }
+//arraylist order is preserved. [1,2,3,4,5]  ==> [1,2,3,4,5]
+// set order is not preserved  [1,2,3,4,5] ==>  [2,1,4,3,5]
+
+
+
+// arraylist [1,2,3,1,1,2,3,4,5]   => [1,2,3,1,1,2,3,4,5=]
+// set [1,2,3,1,1,2,3,4,5] => [1,2,3,4,5]
